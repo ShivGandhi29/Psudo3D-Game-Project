@@ -1,0 +1,6 @@
+#title {
+    -fx-font: 50px Tahoma;
+    -fx-text-fill: linear-gradient(rgba(255,0,0,1),rgba(0,0,0,0));
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+}

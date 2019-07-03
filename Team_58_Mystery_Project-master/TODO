@@ -1,0 +1,7 @@
+store different color schemes/texture packs per level. (one in dungeon, one possibly outdoors etc.
+
+another ENUM for LEVEL details, such as player position, said texture lists,
+
+MAIN MENU also pause menu, switch cases and final int values in render/gameloop
+
+tests n shit and other assignement nessicarites

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is how the xml format shall be made -->
+<!DOCTYPE mainGameWorld SYSTEM "GameWorldType.dtd">
+<mainGameWorld>
+	<Items>
+		<Player id="Jim">
+			<name>Jim</name>
+		</Player>
+	</Items>
+</mainGameWorld>

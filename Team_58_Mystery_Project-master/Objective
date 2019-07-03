@@ -1,0 +1,24 @@
+Guards use proximity detector if player is near them
+Caught = guard facing direction + proximity to player <= 5 meters
+
+ Objective: prison escape: single player
+            player starts in random cell
+            5 second timer guard walks pass
+            door accidentally unlocked or find item in cell to pick lock door
+            dont let guard see u (directional function) nsew
+            sneak attack guard (if guard sees you, game over)
+            after pass guard, next level
+            
+ Level 1:   Player lock in cell, need item to unlock
+            Player moves to door, if item isnt suitable to unlock, print descriptive message
+            if guard sees player trying to unlock door, game over
+ 
+ Level 2:   Player sneaks up behind guard & attacks
+            If guard sees player, game over
+            player knock out guard then searchs guard
+            player gets key and unlocks next level
+
+ Level 3:   Multiple guards moving in random directions
+            
+            
+            

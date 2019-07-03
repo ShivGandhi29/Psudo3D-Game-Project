@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- this is the legal contraints of the xml file being created -->
+<!ELEMENT mainGameWorld (Items)>
+<!ELEMENT Items (Player)>
+<!ELEMENT Player (name)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST Player id ID #REQUIRED>
+<!ATTLIST mainGameWorld lang (Java) "Java">

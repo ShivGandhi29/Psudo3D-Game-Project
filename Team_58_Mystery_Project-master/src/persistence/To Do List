@@ -1,0 +1,20 @@
+
+Saving:
+	player DONE
+	Bag DONE
+	Position DONE
+	Camera DONE
+	GAMEOBJECTS?
+
+	board DONE
+	Tiles DONE
+	level DONE
+
+
+Loading:
+	load player aspects and save to player DONE
+	load map and save back into a map   DONE
+	load Bag
+	load GameObjects?
+
+Sort Camera direction when reloaded to match variables

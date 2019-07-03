@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- this is the legal contraints of the xml file being created -->
+<!ELEMENT mainGameWorld (Maps)>
+<!ELEMENT Maps (Board)>
+<!ATTLIST Board Height #REQUIRED>
+<!ATTLIST Board Tiles #REQUIRED>
+<!ATTLIST Board Width #REQUIRED>
+<!ELEMENT Maps (Level)>
+<!ATTLIST Level CurrentLevel #REQUIRED>
+<!ELEMENT mainGameWorld (Player)>
+<!ELEMENT Player (Bag)>
+<!ATTLIST Bag IntObj #REQUIRED>
+<!ELEMENT Player (Position)>
+<!ATTLIST Position playerPosX #REQUIRED>
+<!ATTLIST Position playerPosY #REQUIRED>
+<!ELEMENT Player (Camera)>
+<!ATTLIST Camera xDir #REQUIRED>
+<!ATTLIST Camera xPlane #REQUIRED>
+<!ATTLIST Camera yDir #REQUIRED>
+<!ATTLIST Camera yPlane #REQUIRED>
+<!ATTLIST mainGameWorld lang (Java) "Java">
